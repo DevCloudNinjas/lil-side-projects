@@ -1,34 +1,17 @@
-# AWS-Capstone-Project-1
-How to Deploy a Multi-Tier PHP Website Using the AWS EC2 &amp; MySQL RDS
-
 # Problem Solution:
 
-**Step 1:** Create an EC2 Server and Install the Apache on it
+| **Step** | **Description**                                                                 |
+|----------|---------------------------------------------------------------------------------|
+| **1**    | Launch an EC2 instance.                                                        |
+| **2**    | Enable Auto Scaling on the EC2 instances with a minimum of 2 instances.        |
+| **3**    | Create an RDS instance.                                                        |
+| **4a**   | Create a database in the RDS instance with the name **intel**.                 |
+| **4b**   | Create a table named **data** in the **intel** database.                       |
+| **4c**   | Set the database password as **intel123**.                                     |
+| **5**    | Update the website’s hostname configuration.                                   |
+| **6**    | Allow traffic from the EC2 instances to the RDS instance.                      |
+| **7**    | Configure security groups to allow all traffic to the EC2 instances.          | 
 
-**Step 2:** Deploy the PHP website on the EC2 Server
-
-**Step 3:** Create a MySQL Database & Set Up Connection Over EC2 Server with Proper Tesing
-
-**Step 4:** Create the Launch Template for Auto Scaling Groups
-
-**Step 5:** Create an Auto Scaling Group for this PHP website
-
-**Step 6:**  Create a Target Group for Load Balancer
-
-**Step 7:**  Create a Load Balancer for Balancing the Traffic
-
-**Step 8:** Attach the Load Balancer to Auto Scaling Group
-
-**Step 9:** Route Traffic from Load Balancer to A Specific Domain (Optional)
-
-**Step 10:** Test the Load Balancer Will Working Fine or Not
-
-**Step 11:** Route Traffic from Load Balancer to A Specific Domain (Optional)
-
-**Step 12:** Test the Auto Scaling is Working Properly or Not
-
-**Step 13:** Test the Database is Working Properly or Not
-
-**For the detailed solution, checkout this link:** https://medium.com/devops-guides/aws-capstone-project-1-how-to-deploy-a-multi-tier-php-website-using-the-aws-ec2-mysql-rds-e8e837f56bab 
+**For the detailed solution, checkout this link:** https://medium.com/devcloudninjas/aws-capstone-project-1-how-to-deploy-a-multi-tier-php-website-using-the-aws-ec2-mysql-rds-e8e837f56bab 
 
 
